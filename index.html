@@ -5,44 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakery</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-        <section class="home" id="home">
-            <div class="navbar">
-        <a href="#" class="logoNav"><img src="./images/logo.png" alt="logo"></a>
+     <nav class="navbar">
+        <div class="logoNav">
+            <img src="./images/bakery-color.png" alt="Family Bakery Logo">
+        </div>
         <ul>
             <li><a href="#home">Home</a></li>  
-            <li><a href="#about" >About</a></li>
-            <li><a href="#">our Offer</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Our Offer</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#baking">Our Products</a></li> -->
+            <li><a href="#baking">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="login.html" class="loginNav" target="_blank">Login</a></li>
+            <li><a href="signUp.html" class="signup" target="_blank">Sign Up</a></li>
         </ul>
-    </div> 
-    <div class="hero">
-     <div class="hero-content">
+    </nav> 
+    <section class="home" id="home">
+     <div class="home-content">
         <h1>Family Bakery</h1>
-        <p> Bringing you the finest breads and pastries—fresh from our oven</p>
-     </div>
+        <p>Freshly baked goods made with love every day.</p>
+        <a href="#about" class="btnHome">Explore Now</a>
     </div>
     </section>
         <section class="about-container" id="about">
-        <div class="about-text">
+           <div class="about-text">
             <h2>Our Story</h2> 
-            <>At Family Bakery, baking isn’t just a job — it’s our passion and our way of bringing joy to our community. For over years, we have been dedicated to crafting freshly baked breads, pastries, and sweet treats, using only the finest ingredients. Every item is made with care, precision, and a touch of love, so that every bite feels special.
-
-                We believe that every loaf of bread, every croissant, muffin, or donut carries a story, and our goal is to make that story delicious. From classic favorites to indulgent treats like Cinnabon, we ensure that each product leaves a lasting impression and a smile on your face.
-
-                Our mission is simple: to share the warmth, aroma, and joy of freshly baked goods with everyone who visits us. At Family Bakery, every visit feels like coming home, and every bite is crafted to make your day a little sweeter.
-
-               We invite you to experience the taste, care, and passion that goes into everything we bake — because at Family Bakery, it’s more than baking, it’s love in every bite.
-            </p>
-        </div>
+            <p>At Family Bakery, baking isn't just a job — it's our passion and our way of bringing joy to our community. For over years, we have been dedicated to crafting freshly baked breads, pastries, and sweet treats, using only the finest ingredients. Every item is made with care, precision, and a touch of love, so that every bite feels special.</p>
+                <p>We believe that every loaf of bread, every croissant, muffin, or donut carries a story, and our goal is to make that story delicious. From classic favorites to indulgent treats like Cinnabon, we ensure that each product leaves a lasting impression and a smile on your face.</p>
+             <p>Our mission is simple: to share the warmth, aroma, and joy of freshly baked goods with everyone who visits us. At Family Bakery, every visit feels like coming home, and every bite is crafted to make your day a little sweeter.</p>
+                <p>We invite you to experience the taste, care, and passion that goes into everything we bake — because at Family Bakery, it's more than baking, it's love in every bite. </p>
+                </div>
                 <div class="about-img">
             <img src="./images/family.jpeg" alt="photo">
         </div>
     </section>
-    <section class="baking" id="gallery">
+    <section class="baking" id="baking">
         <div class="ourBaking">
     <h1>Our Baking</h1>
     <p>Learn more about them. We have worked truly hard to make them perfect for every use.</p> 
@@ -80,56 +81,52 @@
         </div>
     </div>
     </section>
-    <section class="login">
-            <div class="photo">
-                <img src="./images/img.jpeg" alt="image">
-            </div>
-            <div class="log">
-                <div class="logo">
-                    <img src="./images/bakery-color.png" alt="logo">
-                    <h1>Family bakery</h1>
-                </div>
-                <h2>Sign in</h2>
-                <form action="">
-                    <input type="text" name="username" placeholder="Enter your name" required>
-                    <input type="password" name="password" placeholder="Enter your password">
-                    <div class="check">
-                        <input type="radio" name="name" id="admin">
-                    <label for="admin">Admin</label>
-                    <input type="radio" name="name" id="guest">
-                    <label for="guest">Guest</label>
-                </div>
-                    <button type="submit">Sign in</button>
-                </form>
-                <p>Don't have an account? <a href="">Register</a></p>
-            </div>
-        </section>
-        <section class="newLogin">
-        <div class="account-card">
-            <h1 class="bakery-name">Family Bakery</h1>
-            <h2 class="bakery-name">New Login</h2>
-            <form>
-                <input type="text" placeholder="Username" required>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
-                <input type="password" placeholder="Confirm Password" required>
-                <div class="form-group role-group">
-                    <label>Select Role</label>
-                    <div class="radio-row">
-                        <label>
-                            <input type="radio" name="role" value="user" checked>
-                            User
-                        </label>
-                        <label>
-                            <input type="radio" name="role" value="admin">
-                            Admin
-                        </label>
-                    </div>
-                </div>
+        <section class="Contact" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+        <div class="Contact-us">
+            <h3>Send Us a Message</h3>
+            <p>Have a question or feedback? We'd love to hear from you! Please fill out the form below.</p>
 
-                <button type="submit" class="btn btn-primary">Create Account</button>
+            <form action="" class="contact-form">
+                <label for="Name">Name</label>
+                <input type="text" placeholder="Name" id="Name" required>
+
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Email" id="Email" required>
+
+                <label for="Subject">Subject</label>
+                <input type="text" placeholder="Subject" id="Subject" required>
+
+                <label for="Message">Your Message</label>
+                <textarea id="Message" placeholder="Type your message here..." required></textarea>
+
+                <button class="submit-btn" type="submit">Submit</button>
             </form>
         </div>
-        </section>
+
+        <div class="details">
+            <h3>Family Bakery Details</h3>
+            <p>Reach out to us through our direct contact options or connect with us on social media.</p>
+
+            <div class="our-details">
+                <h4><i class="fa-solid fa-location-dot"></i> Visit Us</h4>
+                <p>Family Bakery, 10 Nile Avenue, Zamalek, Cairo, Egypt</p>
+            </div>
+
+            <div class="our-details">
+                <h4><i class="fa-solid fa-phone"></i> Call Us</h4>
+                <p>(+20) 15555555555</p>
+            </div>
+
+            <div class="our-details">
+                <h4><i class="fa-solid fa-envelope"></i> Email Us</h4>
+                <p>familybakery@gmail.com</p>
+            </div>
+
+            <img src="./images/family-location.jpeg" alt="family bakery photo">
+        </div>
+        </div>
+    </section>
 </body>
 </html>

@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: rgba(243, 230, 214);
+}
+.login {
+    max-width: 80%;
+    margin: 80px auto;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgba(249, 236, 220);
+    box-shadow: 0 10px 30px rgba(138, 98, 56, 0.15);
+    overflow: hidden;
+     animation: fadeIn 0.6s ease;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.photo {
+ width: 50%;
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.log {
+    width: 50%;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+.log h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #744d35;
+    margin: 10px 0 20px;
+}
+input[type="text"],
+input[type="password"]  {
+    width: 70%;
+    padding: 14px;
+    margin: 10px 0;
+    border-radius: 12px;
+    border: 1px rgba(200, 179, 166) solid;
+    font-size: 16px;
+    transition: 0.3s;
+    color: #4a3c31;
+}
+form input:focus {
+    outline: none;
+    border-color: #b8945f;
+    box-shadow: 0 0 0 3px rgba(184, 148, 95, 0.2);
+}
+.check {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+div.check label{
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    /* color: #8a6238; */
+     color: #744d35;
+}
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+button[type="submit"] {
+    background-color: rgba(109, 50, 20);
+    color: rgba(247, 239, 227);
+    width: 70%;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;    
+}
+button:hover {
+    background: #6d4c2c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(138, 98, 56, 0.3);
+}
+.log p {
+    margin: 20px 0;
+    font-size: 18px;
+    /* color: rgba(100, 72, 43); */
+    color: black;
+}
+.log a {
+    text-decoration: none;
+    /* color: rgba(100, 72, 43); */
+     color: #8a6238;
+
+}
+
+p a:hover{
+    color: #9d8e78;
+}

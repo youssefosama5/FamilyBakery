@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="login">
+            <div class="photo">
+                <img src="./images/img.jpeg" alt="image">
+            </div>
+            <div class="log">
+                <div class="logo">
+                    <img src="./images/bakery-color.png" alt="logo">
+                </div>
+                <h1>Sign in</h1>
+                <form action="">
+                    <input type="text" name="username" placeholder="Enter your name" required>
+                    <input type="password" name="password" placeholder="Enter your password" required>
+                    <div class="check">
+                    <label for="admin">
+                        <input type="radio" name="role" id="admin">
+                        Admin
+                    </label>
+                    <label for="guest">
+                        <input type="radio" name="role" id="guest">
+                        Guest
+                    </label>
+                </div>
+                    <button type="submit">Sign in</button>
+                </form>
+                <p>Don't have an account? <a href="signUp.html" target="_blank">Register</a></p>
+            </div>
+        </section>
+</body>
+</html>
